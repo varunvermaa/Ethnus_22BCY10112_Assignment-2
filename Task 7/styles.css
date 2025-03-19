@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+}
+
+#train {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    transition: transform 0.2s linear;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+    border: none;
+}
